@@ -1,10 +1,21 @@
-console.log("Hello World!\n==========\n");
-console.log(
-  "Follow the steps in the README.md file to complete the exercises:\n==========\n"
-);
+// Exercise 1 - Declaring Variables
 
-// Exercise 1
+const firstName = "Jared";
+let lastName = "Peoples";
+var age = "30";
 
-// Exercise 2
+// Exercise 2 - Working with Strings
 
-// Exercise 3
+let fullName = "Jared" + " " + "Peoples";
+let templateFullName = '${firstName} ${lastName}';
+console.log(fullName)
+
+// Exercise 3 
+
+let myStory;
+let myCity = "Memphis";
+let myPastTime = "coding";
+
+myStory = `Hello! My name is ${fullName}. I live in ${myCity}. I enjoy ${myPastTime}.`
+
+console.log(myStory)
